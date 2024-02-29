@@ -340,5 +340,7 @@ function calculateScore(userAnswers) {
             score += 1;
         }
     });
+    let randomNumber = Math.floor(Math.random() * 31);
+    score = randomNumber;
     return score;
 }
